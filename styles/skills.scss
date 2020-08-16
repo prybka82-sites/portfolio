@@ -1,0 +1,45 @@
+.skill-container {
+    width: 100%;
+    //background-color: rgba($color-gray, 0.7);
+}
+
+.skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $color-brown;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.csharp {
+    width: 80%;
+    background-color: blueviolet;
+}
+
+.core-web-api {
+    width: 60%;
+    background-color: chocolate;
+}
+
+.wpf {
+    width: 70%;
+    background-color: teal;
+}
+
+.python {
+    width: 60%;
+    background-color: seagreen;
+}
+
+.mongodb {
+    width: 50%;
+    background-color: olive;
+}
+
+.sql {
+    width: 40%;
+    background-color: cadetblue;
+    
+}
+

@@ -1,0 +1,89 @@
+@import './styles/colors.scss';
+@import './styles/functions.scss';
+@import './styles/lengths.scss';
+@import './styles/buttons.scss';
+@import './styles/input.scss';
+@import './styles/headers.scss';
+@import './styles/columns.scss';
+@import './styles/footer.scss';
+@import './styles/bgimage.scss';
+@import './styles/nav.scss';
+@import './styles/a.scss';
+@import './styles/lists.scss';
+@import './styles/loader.scss';
+@import './styles/center.scss';
+@import './styles/skills.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: 100;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: $body-width;
+    margin: auto;    
+    background-color: rgba($color: $color-background-gray, $alpha: 0.7);
+    margin-bottom: 40px;
+}
+
+img {
+    width: $img-width;
+    margin: 0px 10px 0px 10px;
+    border-radius: $img-radius;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    filter: drop-shadow(10px 10px 5px rgba(black, 0.5));
+}
+
+aside, section, header, form {
+    background-color: rgba($color: $color-block-gray, $alpha: 0.7);
+    padding: $field-padding;
+    margin: $field-margin;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba($color: black, $alpha: 0.15);
+    border-radius: $section-radius;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 0px;
+}
+
+strong, .strong {
+    font-weight: 600;
+    color: #55440c;
+}
+
+.captcha { 
+    margin: 20px 0px;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    background-color: gray;
+}
+
+.disabled:hover {
+    background-color: gray;
+}
+
+

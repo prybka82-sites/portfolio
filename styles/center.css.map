@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;EACT,SAAS,EAAE,qBAAqB;CACnC;;AAED,AAAA,YAAY,CAAC;EACT,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "center.scss"
+    ],
+    "names": [],
+    "file": "center.css"
+}

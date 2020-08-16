@@ -1,0 +1,11 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 1.2;
+}
+
+.list::before {
+    content: '• ';
+}

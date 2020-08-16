@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    overflow: hidden;
+}
+
+.no-column {
+    float: none;
+    width: 100% !important;
+    min-width: $min-width;
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 30%;
+    min-width: $min-right-col-width;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
