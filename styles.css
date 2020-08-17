@@ -254,32 +254,32 @@ li {
 
 .csharp {
   width: 80%;
-  background-color: blueviolet;
+  background-color: #67217a;
 }
 
 .core-web-api {
   width: 60%;
-  background-color: chocolate;
+  background-color: #6643a0;
 }
 
 .wpf {
   width: 70%;
-  background-color: teal;
+  background-color: #00aad4;
 }
 
 .python {
   width: 60%;
-  background-color: seagreen;
+  background-color: #366d9d;
 }
 
 .mongodb {
   width: 50%;
-  background-color: olive;
+  background-color: #259445;
 }
 
 .sql {
   width: 40%;
-  background-color: cadetblue;
+  background-color: #0076d0;
 }
 
 * {
@@ -354,5 +354,13 @@ strong, .strong {
 
 .disabled:hover {
   background-color: gray;
+}
+
+.latest-project {
+  display: none;
+}
+
+.other-projects {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */
